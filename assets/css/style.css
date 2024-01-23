@@ -1,3 +1,6 @@
+
+
+
 :root{
     --bool-darkest:#000000;
     --bool-light:#4A4A4A;
@@ -13,13 +16,53 @@ body{
     margin:0;
 }
 
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    height: 100%;
+}
 
 header{
     background-color: aqua;
 }
+
 main{
+}
+
+#site_main{
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.col_7{
+    width: calc((100% / 12)*(12/7));
+    padding: 0.5rem;
+}
+
+
+footer{
+
+}
+
+
+/*Debug things*/
+.debug main{
+    height: ;
     background-color: rgb(223, 11, 11);
 }
-footer{
+
+.debug footer{
     background-color: bisque;
+    height: 50px;
 }
