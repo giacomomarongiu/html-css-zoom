@@ -26,23 +26,24 @@ nav{
     display: flex;
     justify-content: end;
     height: 100%;
-    gap: 2px;
+    gap: 5px;
+    align-items: center;
+}
+
+#site_nav{
+    padding-right: 3px;
+    padding-top: 3px;
 }
 
 .buttons_top{
     background-color: #4A4A4A;
     border-radius: 0.2rem;
-    padding: 1%;
+    padding: 3px;
     font-size: x-small;
 }
 
-
-
-main{
-}
-
 #site_main{
-    
+    padding-top: 40px;
 }
 
 .row{
@@ -55,6 +56,19 @@ main{
 .col_7{
     width: calc((100% / 12)*(12/7));
     padding: 0.5rem;
+}
+
+.card{
+    position: relative;
+}
+
+.call_name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: smaller;
+    background-color: #4a4a4ac4;
+    padding: 3px;
 }
 
 .dogs{
