@@ -21,15 +21,22 @@ body{
     max-width: 1200px;
     margin: auto;
 }
+
 nav{
     display: flex;
     justify-content: end;
     height: 100%;
+    gap: 2px;
 }
 
-header{
-    background-color: aqua;
+.buttons_top{
+    background-color: #4A4A4A;
+    border-radius: 0.2rem;
+    padding: 1%;
+    font-size: x-small;
 }
+
+
 
 main{
 }
@@ -50,6 +57,24 @@ main{
     padding: 0.5rem;
 }
 
+.dogs{
+    max-width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
 
@@ -57,6 +82,7 @@ footer{
 
 
 /*Debug things*/
+
 .debug main{
     height: ;
     background-color: rgb(223, 11, 11);
