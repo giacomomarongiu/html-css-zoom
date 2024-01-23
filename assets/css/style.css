@@ -14,6 +14,7 @@ body{
     color: #ffffff;
     background-color: #000000;
     margin:0;
+    max-width: 100wh;
 }
 
 .container{
@@ -76,22 +77,30 @@ nav{
 }
 
 
+#site_footer{
+    background-color: #222222;
+}
 
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footer_column{
+    gap: 8px;
+    padding: 1rem;
+    font-size: large;
+    position: relative;
+}
 
+.text_button{
+    position: absolute;
+    font-size: xx-small;
+}
 
-
-
-
-
-
-
-
-
-
-
-footer{
-
+.arrow{
+    font-size: x-small
 }
 
 
