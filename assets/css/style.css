@@ -77,13 +77,13 @@ nav {
 
 .card {
     position: relative;
+    fit
 }
 
 /*Pinco Panco position*/
 .call_name {
     position: absolute;
-    bottom: 0;
-
+    bottom: 3px ; /*fixing for padding*/
     left: 0;
     font-size:xx-small;
     background-color: #4a4a4ac4;
